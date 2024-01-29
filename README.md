@@ -11,7 +11,7 @@
 # IMPORTANT you need a .env file with the next information
 
 - **DB_NAME**= Name of the database
-- **DB_HOST**= Database name
+- **DB_HOST**= localhost / your_host
 - **DB_PORT**= Database port
 - **DB_USER**= Database user
 - **DB_PASS**= Database user's password
