@@ -5,14 +5,10 @@
  It implements
   - User model for managing users in your system (TypeOrm)
   - Double authentication made with Passport and Nest, one for local checking your database and another to check for JWTs
+  -  **The model can be extended as well the strategies to validate a user**
+  -  It can use any database engine compatible with TypeOrm you just change it in the configDb function called in the App.Module
 
-  **The model can be extended as well the strategies to validate a user**
----
-
-It can use any database engine compatible with TypeOrm
----
-
-**IMPORTANT** you need a .env file with the next information
+# IMPORTANT you need a .env file with the next information
 
 - **DB_NAME**= Name of the database
 - **DB_HOST**= Database name
